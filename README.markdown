@@ -23,7 +23,7 @@ Installation with Composer
 --------------------------
 
 ```bash
-composer require fguillot/json-rpc @stable
+composer require suscitar/json-rpc @stable
 ```
 
 Examples

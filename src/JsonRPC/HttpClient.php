@@ -315,7 +315,7 @@ class HttpClient
             error_log('==> Response: '.PHP_EOL.json_encode($response, JSON_PRETTY_PRINT));
         }
 
-        $this->handleExceptions($headers);
+        //s$this->handleExceptions($headers);
         $this->parseCookies($headers);
 
         return $response;
